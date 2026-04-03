@@ -1,0 +1,241 @@
+
+<style>
+
+body {
+    background-image: url('notebook.jpg');
+    background-repeat: repeat;
+    background-size: 300px;
+}
+
+    .BabyDollFont {
+        color:rgb(144, 22, 22);
+        text-align: center;
+        font-size: 50px;
+        font-family:'BabyDoll';
+        z-index: 1;
+        position: relative;
+    }
+
+    .textContainer1 {
+        width: 80%;
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        text-align: left;
+        box-sizing: border-box;
+        position: relative;
+        top: -230px;
+        left: -260px;
+    }  
+
+    .textContainer2 {
+        width: 80%;
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        text-align: left;
+        box-sizing: border-box;
+        position: relative;
+        top: -230px;
+        left: -260px;
+    }   
+
+/* buttons */
+    .button {
+        background-color: rgba(250, 235, 215, 0);
+        color: rgb(255, 255, 255);
+        padding: 120px 120px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        position: relative;
+        left: 220px;
+        top: -50px;
+        background-image: url('letter1.png');
+        background-size: cover;
+        transition-duration: 0.0s;
+        border: none;
+        outline: none;
+        transform: rotate(5deg);
+    }
+
+    .button:hover {
+        background-image: url('temporary open letter.png');
+        transform: rotate(15deg) scale(1.05);
+    }
+
+    .button2 {
+        background-color: rgba(250, 235, 215, 0);
+        color: rgb(255, 255, 255);
+        padding: 120px 120px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        position: relative;
+        left: -220px;
+        top: -220px;
+        background-image: url('letter3.1.png');
+        background-size: cover;
+        transition-duration: 0.0s;
+        border: none;
+        outline: none;
+        transform: rotate(-5deg);
+    }
+
+    .button2:hover {
+        background-image: url('temporary open letter.png');
+        transform: rotate(-20deg) scale(1.05);
+    }
+
+    .button3 {
+        background-color: rgba(250, 235, 215, 0);
+        color: rgb(255, 255, 255);
+        padding: 120px 120px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        position: relative;
+        left: 180px;
+        top: -200px;
+        background-image: url('letter2.1.png');
+        background-size: cover;
+        transition-duration: 0.0s;
+        border: none;
+        outline: none;
+        transform: rotate(0deg) scale(1.3);
+    }
+
+    .button3:hover {
+        background-image: url('temporary open letter.png');
+        transform: rotate(10deg) scale(1.05);
+    }
+
+/*stickers */
+
+    .imageholder1 {
+        background-image: url('cut\ stickers/cutSticker1.png');
+        background-size:contain;
+        padding: 120px 160px;
+        position: absolute;
+        left: 0px;
+        top: 50px;
+        display: inline-block;
+        transform: scale(2) rotate(-15deg);
+        z-index: 0;
+    }
+    
+    .imageholder2 {
+        background-image: url('cut\ stickers/cutsticker2.png');
+        background-size:contain;
+        padding: 120px 120px;
+        position: absolute;
+        right: 80px;
+        top: 120px;
+        display: inline-block;
+        transform: scale(2) rotate(20deg);
+    }
+
+    .imageholder3 {
+        background-image: url('cut\ stickers/cutsticker3.png');
+        background-size:contain;
+        padding: 120px 120px;
+        position: absolute;
+        left: 0px;
+        top: 450px;
+        display: inline-block;
+        transform: scale(1.7) rotate(20deg);
+    }
+
+    .imageholder4 {
+        background-image: url('spinStraw.gif');
+        background-size:contain;
+        padding: 80px 100px;
+        position: absolute;
+        right: 40px;
+        top: 600px;
+        display: inline-block;
+        transform: scale(1.9) rotate(-20deg);
+    }
+
+    .imageholder5 {
+        background-image: url('images/background2');
+        background-size:contain;
+        padding: 200px 112px;
+        position: absolute;
+        left: -100px;
+        top: -100px;
+        display: inline-block;
+        transform: scale(2) rotate(-20deg);
+        z-index: 0;
+    }
+    
+    .imageholder6 {
+        background-image: url('images/background1.jpg');
+        background-size:contain;
+        padding: 200px 112px;
+        position: absolute;
+        right: -60px;
+        top: -10px;
+        display: inline-block;
+        transform: scale(2) rotate(5deg);
+        z-index: 0;
+    }
+
+@font-face {
+    font-family:'BabyDoll'; /* A name you choose */
+    src: url('Baby Doll/Baby\ Doll.ttf') format('truetype'),
+         url('Baby Doll/Baby\ Doll.ttf') format('truetype'); /* Path relative to your CSS file */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Helps with page load performance */
+}
+
+</style>
+
+
+<html>
+    <head>
+        <title>I LOVE MY WIFE</title>
+        <link rel="icon" href="spinStraw.gif" type="image/gif">
+    </head>
+
+    <body>
+        
+        <br>
+        <h1 class="BabyDollFont" style="text-shadow: 4px 4px 0px white;">ੈ✩‧₊˚✧.* <br> *+:｡.｡to the sweetest little bunny☄. *. ⋆ <br>˚ ༘♡ ⋆｡˚in the world˚ ༘♡ ⋆｡˚</h1>
+        
+        <p class="BabyDollFont" style="font-size: 20px; top:-67px;"> (this font is called "babydoll" and it really reminded me of you :)) </p>
+        <p class="BabyDollFont" style="font-size: 22px; top:-48px;"> I know you've been waiting a while for this and now you finally get to see it </br> 
+        I've prepared some letters for you dear, each designed for you to open when you feel a </br>
+        certain mood or when it's a specific date and I might even add more over time you'll just </br>
+        have to wait and see >:)</p>
+
+
+        <p style="text-align: center;">   
+            <button class="button" onclick="location.href='BirthdayPage.html'"> click me!</button>
+        </p>
+
+        <div class="textContainer2">
+            <p class="BabyDollFont" style="font-size:30px; text-align:right"> open when it's your BIRTHDAY   -->  </p>
+        </div>
+
+        <p style="text-align: center;">   
+            <button class="button2"> EAT ME</button> 
+        </p>
+
+        <p style="text-align: center;">   
+            <button class="button3"> button3</button> 
+        </p>
+
+        <div class="imageholder5"> </div> 
+        <div class="imageholder6"> </div> 
+        <div class="imageholder1"> </div> 
+        <div class="imageholder2"> </div> 
+        <div class="imageholder3"> </div> 
+        <div class="imageholder4"> </div> 
+    
+    </body>
+</html>
