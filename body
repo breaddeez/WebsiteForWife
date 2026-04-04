@@ -277,7 +277,7 @@ body {
         </div>
 
         <p style="text-align: center;">   
-            <button class="button2" onclick="location.href='HAPPY.html'"> EAT ME</button> 
+            <button class="button2"> EAT ME</button> 
         </p>
 
         <p style="text-align: center;">   
